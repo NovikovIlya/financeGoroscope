@@ -104,8 +104,8 @@ function fooButtonClick()
       try {
         smenaVida();
         
-        const response = await axios.get(`https://atoma-horoscope.onrender.com/horoscope/capricorn/full/`)
-        const data = response.data.content.text[0].content
+        const response = await axios.get(`https://atoma-horoscope.onrender.com/finance_horoscope/capricorn/today/`)
+        const data = response.data.data[0].content
         const dataName = 'Козерог'
         createCar(event,data,dataName)
         izvinite2()
@@ -144,8 +144,8 @@ function fooButtonClick()
       try {
         smenaVida();
         
-        const response = await axios.get(`https://atoma-horoscope.onrender.com/horoscope/aries/full/`)
-        const data = response.data.content.text[0].content
+        const response = await axios.get(`https://atoma-horoscope.onrender.com/finance_horoscope/aries/today/`)
+        const data = response.data.data[0].content
         const dataName = 'Овен'
         createCar(event,data,dataName)
         izvinite2()
@@ -181,8 +181,8 @@ function fooButtonClick()
       try {
         smenaVida();
         
-        const response = await axios.get(`https://atoma-horoscope.onrender.com/horoscope/taurus/full/`)
-        const data = response.data.content.text[0].content
+        const response = await axios.get(`https://atoma-horoscope.onrender.com/finance_horoscope/taurus/today/`)
+        const data = response.data.data[0].content
         const dataName = 'Телец'
         createCar(event,data,dataName)
         izvinite2()
@@ -219,8 +219,8 @@ function fooButtonClick()
       try {
         smenaVida();
         
-        const response = await axios.get(`https://atoma-horoscope.onrender.com/horoscope/gemini/full/`)
-        const data = response.data.content.text[0].content
+        const response = await axios.get(`https://atoma-horoscope.onrender.com/finance_horoscope/gemini/today/`)
+        const data = response.data.data[0].content
         const dataName = 'Близнецы'
         createCar(event,data,dataName)
         izvinite2()
@@ -258,8 +258,8 @@ function fooButtonClick()
       try {
         smenaVida();
         
-        const response = await axios.get(`https://atoma-horoscope.onrender.com/horoscope/cancer/full/`)
-        const data = response.data.content.text[0].content
+        const response = await axios.get(`https://atoma-horoscope.onrender.com/finance_horoscope/cancer/today/`)
+        const data = response.data.data[0].content
         const dataName = 'Рак'
         createCar(event,data,dataName)
         izvinite2()
@@ -297,8 +297,8 @@ function fooButtonClick()
       try {
         smenaVida();
         
-        const response = await axios.get(`https://atoma-horoscope.onrender.com/horoscope/leo/full/`)
-        const data = response.data.content.text[0].content
+        const response = await axios.get(`https://atoma-horoscope.onrender.com/finance_horoscope/leo/today/`)
+        const data = response.data.data[0].content
         const dataName = 'Лев'
         createCar(event,data,dataName)
         izvinite2()
@@ -337,8 +337,8 @@ function fooButtonClick()
       try {
         smenaVida();
         
-        const response = await axios.get(`https://atoma-horoscope.onrender.com/horoscope/virgo/full/`)
-        const data = response.data.content.text[0].content
+        const response = await axios.get(`https://atoma-horoscope.onrender.com/finance_horoscope/virgo/today/`)
+        const data = response.data.data[0].content
         const dataName = 'Дева'
         createCar(event,data,dataName)
         izvinite2()
@@ -376,8 +376,8 @@ function fooButtonClick()
       try {
         smenaVida();
         
-        const response = await axios.get(`https://atoma-horoscope.onrender.com/horoscope/libra/full/`)
-        const data = response.data.content.text[0].content
+        const response = await axios.get(`https://atoma-horoscope.onrender.com/finance_horoscope/libra/today/`)
+        const data = response.data.data[0].content
         const dataName = 'Весы'
         createCar(event,data,dataName)
         izvinite2()
@@ -415,8 +415,8 @@ function fooButtonClick()
       try {
         smenaVida();
         
-        const response = await axios.get(`https://atoma-horoscope.onrender.com/horoscope/scorpio/full/`)
-        const data = response.data.content.text[0].content
+        const response = await axios.get(`https://atoma-horoscope.onrender.com/finance_horoscope/scorpio/today/`)
+        const data = response.data.data[0].content
         const dataName = 'Скорпион'
         createCar(event,data,dataName)
         izvinite2()
@@ -454,8 +454,8 @@ function fooButtonClick()
       try {
         smenaVida();
         
-        const response = await axios.get(`https://atoma-horoscope.onrender.com/horoscope/sagittarius/full/`)
-        const data = response.data.content.text[0].content
+        const response = await axios.get(`https://atoma-horoscope.onrender.com/finance_horoscope/sagittarius/today/`)
+        const data = response.data.data[0].content
         const dataName = 'Стрелец'
         createCar(event,data,dataName)
         izvinite2()
@@ -493,8 +493,8 @@ function fooButtonClick()
       try {
         smenaVida();
         
-        const response = await axios.get(`https://atoma-horoscope.onrender.com/horoscope/aquarius/full/`)
-        const data = response.data.content.text[0].content
+        const response = await axios.get(`https://atoma-horoscope.onrender.com/finance_horoscope/aquarius/today/`)
+        const data = response.data.data[0].content
         const dataName = 'Водолей'
         createCar(event,data,dataName)
         izvinite2()
@@ -531,8 +531,9 @@ function fooButtonClick()
       try {
         smenaVida();
         
-        const response = await axios.get(`https://atoma-horoscope.onrender.com/horoscope/pisces/full/`)
-        const data = response.data.content.text[0].content
+        const response = await axios.get(`https://atoma-horoscope.onrender.com/finance_horoscope/pisces/today/`)
+        const data = response.data.data[0].content
+        console.log(data)
         const dataName = 'Рыбы'
         createCar(event,data,dataName)
         izvinite2()
@@ -544,6 +545,7 @@ function fooButtonClick()
         console.log(value);
         setZad(true);
       } catch (error) {
+        console.log(error)
         smenaVida();
         izvinite1()
       }
@@ -572,7 +574,7 @@ function fooButtonClick()
           {/* <div className=' btnSign3'>s</div> */}
           
             <div className="col-md-12 text-center">
-                <h3 className="animate-charcter"> Любовный гороскоп</h3>
+                <h3 className="animate-charcter"> Финансовый гороскоп</h3>
               </div>
           </div>
           </div>

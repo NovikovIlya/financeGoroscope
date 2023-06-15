@@ -106,10 +106,10 @@ background-image: -webkit-gradient(linear, left bottom, left top, from(#D9AFD9),
 background-image: -o-linear-gradient(bottom, #D9AFD9 0%, #97D9E1 100%);
 background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%); */
  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
-background: -webkit-gradient(linear, left bottom, left top, from(rgb(0,0,0)) , to(rgb(111,0,0)));
-background: -webkit-linear-gradient(linear, left bottom, left top, from(rgb(0,0,0)) , to(rgb(111,0,0)));
-background: -o-linear-gradient(bottom, rgb(0,0,0) , rgb(111,0,0));
-background: linear-gradient(to top, rgb(0,0,0) , rgb(111,0,0)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-gradient(linear, left bottom, left top, from(rgb(0,0,0)) , to(rgba(255, 217, 0, 0.74)));
+background: -webkit-linear-gradient(linear, left bottom, left top, from(rgb(0,0,0)) , to(rgb(255, 217, 0, 0.74)));
+background: -o-linear-gradient(bottom, rgb(0,0,0) , rgb(255, 217, 0, 0.74));
+background: linear-gradient(to top, rgb(0,0,0) , rgb(255, 217, 0, 0.74)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
   /* background-image: url('https://static.vecteezy.com/system/resources/previews/011/536/252/non_2x/mystical-and-celestial-elements-with-stars-planets-moons-and-hands-cosmic-starry-zodiac-elements-occult-esoteric-design-vector.jpg'); */
@@ -292,7 +292,7 @@ color:aliceblue ;
 color:black;
 padding: 50px;
 padding-top: 25px;
-font-size: 17px;
+font-size: 15px;
 }
 .highText{
 /* padding-top: 60px; */
@@ -319,6 +319,7 @@ margin-top: -45px;
   margin-bottom: 20px;
 }
 .zagMain{
+  scale: 0.7;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -440,7 +441,7 @@ padding-bottom: 25px;
 }
 .main1{
   background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,0.7763480392156863) 0%, rgba(108,167,212,1) 50%, rgba(0,0,0,0.804359243697479) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,0.7763480392156863) 0%, rgba(192,192,192) 50%, rgba(0,0,0,0.804359243697479) 100%);
 
 /* background-image: url('https://media.istockphoto.com/id/1157427003/vector/space-seamless-pattern-with-zodiac-constellations-galaxy-stars-planets-in-outer-space.jpg?s=612x612&w=0&k=20&c=DmDh4mkLgvNfMHrlaDjIuHgHEXcUtFWZTgrD8KJMycM='); */
 /* height: 100vh; */
@@ -484,6 +485,7 @@ display: flex;
         justify-content: center;
 }
 .spin{
+  margin-top: 15px;
   display:flex;
   justify-content: center;
   width: 100%;
@@ -576,6 +578,7 @@ width: 50%;
 .zagryzka{
 margin-top: 25px;
 color: white !important;
+margin-bottom: 5px;
 }
 
 @media screen and (max-width:321px){
