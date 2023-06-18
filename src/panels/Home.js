@@ -65,6 +65,7 @@ function Home(){
 		}
 		if (condition === 'online'){
 			setContditionValue(false)
+			setizvinite(false)
 		}
 		
 		}

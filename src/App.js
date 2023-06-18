@@ -64,7 +64,7 @@ const App = () => {
 		  <Alert
 			actions={[
 			  {
-				title: 'Отказаться',
+				title: 'Подписаться',
 				autoClose: true,
 				mode: 'cancel',
 				action: ()=>{
@@ -72,7 +72,7 @@ const App = () => {
 				}
 			  },
 			  {
-				title: 'Подписаться',
+				title: 'Отказаться',
 				autoClose: true,
 				mode: 'destructive',
 				action: () => otpravka(),
@@ -129,8 +129,8 @@ const App = () => {
 	};
 
 	return (
-		<ConfigProvider>
-			<AdaptivityProvider>
+		<ConfigProvider  appearance='dark'>
+			<AdaptivityProvider >
 				<AppRoot>
 					<SplitLayout popout={popout} >
 						<SplitCol>
