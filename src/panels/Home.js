@@ -33,11 +33,24 @@ function Home(){
 	  window.addEventListener("popstate", (event) => {
 		event.preventDefault();
 		if (open === true){
+			if (!document.querySelector('.main1')){
+				history.back()
+			}
 			// setOpen(false);
-			history.back()
+			
 		}
-		if (open === false)
-			setOpen(true);
+		if (open === false){
+			const kek = ()=>{
+				if(document.querySelector('.main1')){
+					setOpen(true)
+				}
+				
+			}
+			setTimeout(kek,100)
+
+		}
+			
+			
 		}
 	  );
 

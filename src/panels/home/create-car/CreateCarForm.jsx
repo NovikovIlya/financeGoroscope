@@ -7,6 +7,7 @@ import axios from 'axios';
 const CreateCarForm = ({setCars,smenaVida,oven1,load,izvinite1,load1,conditionValue,izvinite2}) => {
   const [zad,setZad] = useState(false)
   const [telec,setTelec] = useState(false)
+  const [zad1,setZad1] = useState(false)
 
   // function Recomend(){
   //   bridge.send('VKWebAppRecommend')
@@ -122,8 +123,14 @@ function fooButtonClick()
         izvinite1()
       }
       finally{
+        if (zad1 === false){
+          setTimeout(load,3000)
+          setTimeout(timeScroll,1000)
+          setZad1(true)
+        }else{
         setTimeout(load,100)
         setTimeout(timeScroll,1000)
+        }
       }
 
     }
@@ -161,8 +168,14 @@ function fooButtonClick()
         izvinite1()
       }
       finally{
+        if (zad1 === false){
+          setTimeout(load,3000)
+          setTimeout(timeScroll,1000)
+          setZad1(true)
+        }else{
         setTimeout(load,100)
         setTimeout(timeScroll,1000)
+        }
       }
     }
     ha()
@@ -198,8 +211,14 @@ function fooButtonClick()
         izvinite1()
       }
       finally{
+        if (zad1 === false){
+          setTimeout(load,3000)
+          setTimeout(timeScroll,1000)
+          setZad1(true)
+        }else{
         setTimeout(load,100)
         setTimeout(timeScroll,1000)
+        }
       }
     }
     ha()
@@ -236,8 +255,14 @@ function fooButtonClick()
         izvinite1()
       }
       finally{
+        if (zad1 === false){
+          setTimeout(load,3000)
+          setTimeout(timeScroll,1000)
+          setZad1(true)
+        }else{
         setTimeout(load,100)
         setTimeout(timeScroll,1000)
+        }
       }
     }
     ha()
@@ -275,8 +300,14 @@ function fooButtonClick()
         izvinite1()
       }
       finally{
+        if (zad1 === false){
+          setTimeout(load,3000)
+          setTimeout(timeScroll,1000)
+          setZad1(true)
+        }else{
         setTimeout(load,100)
         setTimeout(timeScroll,1000)
+        }
       }
     }
     ha()
@@ -314,8 +345,14 @@ function fooButtonClick()
         izvinite1()
       }
       finally{
+        if (zad1 === false){
+          setTimeout(load,3000)
+          setTimeout(timeScroll,1000)
+          setZad1(true)
+        }else{
         setTimeout(load,100)
         setTimeout(timeScroll,1000)
+        }
       }
     }
     ha()
@@ -354,8 +391,14 @@ function fooButtonClick()
         izvinite1()
       }
       finally{
+        if (zad1 === false){
+          setTimeout(load,3000)
+          setTimeout(timeScroll,1000)
+          setZad1(true)
+        }else{
         setTimeout(load,100)
         setTimeout(timeScroll,1000)
+        }
       }
     }
     ha()
@@ -393,8 +436,14 @@ function fooButtonClick()
         izvinite1()
       }
       finally{
+        if (zad1 === false){
+          setTimeout(load,3000)
+          setTimeout(timeScroll,1000)
+          setZad1(true)
+        }else{
         setTimeout(load,100)
         setTimeout(timeScroll,1000)
+        }
       }
     }
     ha()
@@ -432,8 +481,14 @@ function fooButtonClick()
         izvinite1()
       }
       finally{
+        if (zad1 === false){
+          setTimeout(load,3000)
+          setTimeout(timeScroll,1000)
+          setZad1(true)
+        }else{
         setTimeout(load,100)
         setTimeout(timeScroll,1000)
+        }
       }
     }
     ha()
@@ -471,8 +526,14 @@ function fooButtonClick()
         izvinite1()
       }
       finally{
+        if (zad1 === false){
+          setTimeout(load,3000)
+          setTimeout(timeScroll,1000)
+          setZad1(true)
+        }else{
         setTimeout(load,100)
         setTimeout(timeScroll,1000)
+        }
       }
     }
     ha()
@@ -510,8 +571,14 @@ function fooButtonClick()
         izvinite1()
       }
       finally{
+        if (zad1 === false){
+          setTimeout(load,3000)
+          setTimeout(timeScroll,1000)
+          setZad1(true)
+        }else{
         setTimeout(load,100)
         setTimeout(timeScroll,1000)
+        }
       }
     }
     ha()
@@ -550,8 +617,14 @@ function fooButtonClick()
         izvinite1()
       }
       finally{
+        if (zad1 === false){
+          setTimeout(load,3000)
+          setTimeout(timeScroll,1000)
+          setZad1(true)
+        }else{
         setTimeout(load,100)
         setTimeout(timeScroll,1000)
+        }
       }
     }
     ha()

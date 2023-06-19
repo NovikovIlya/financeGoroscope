@@ -64,7 +64,7 @@ const App = () => {
 		  <Alert
 			actions={[
 			  {
-				title: 'Подписаться',
+				title: 'Отказаться',
 				autoClose: true,
 				mode: 'cancel',
 				action: ()=>{
@@ -72,7 +72,7 @@ const App = () => {
 				}
 			  },
 			  {
-				title: 'Отказаться',
+				title: 'Подписаться',
 				autoClose: true,
 				mode: 'destructive',
 				action: () => otpravka(),
